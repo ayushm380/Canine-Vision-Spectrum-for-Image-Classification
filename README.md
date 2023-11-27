@@ -2,12 +2,6 @@
 
 One  of  the  most  fundamental  applications  in  the  field  of computer  vision  is  image  classification. Since the advent of deep learning techniques, it has been a norm to resort to RGB color space for processing and forward implementations. In this paper, we aim to find out how processing in the canine vision spectrum affects image classification models considering animals view the world differently than humans and might be able to perceive notions and surrounding objects in a more enhanced/restricted way. Specifically, we benchmark our dataset on various models.
 
-Report: Report.pdf
-
-Video Link: https://youtu.be/HO7483F-RbA
-
-Slides: Slides.pdf
-
 ## Installation
 
 #### First clone the repository using
