@@ -20,20 +20,6 @@ The file `project.py` can be used to run the inference of your image on any of t
 ```bash
 python project.py --help 
 ```
-gives
-```
-usage: EE 610 Project [-h] [--image i] [--convert c] [--model m] [--mode md]
-
-optional arguments:
-  -h, --help   show this help message and exit
-  --image i    Takes in path to input image file
-  --convert c  Converts image to canine vision space (default is True)
-  --model m    Enter either of
-                       [1] d   : DenseNet
-                       [2] r   : ResNet
-                       [3] e   : EfficientNet
-  --mode md    Choose if you want the Lp mode or Sp mode. Default is Lp
-```
 1. The image parameter is used to take the input path of the image
 2. The convert parameter is used to convert the human spectrum image to the canine spectrum image. It is by default True, since usually we don't have access to such images. But if the image is already in the canine spectrum, set it to False.
 3. The model parameter is used to choose which model you want to test the image on. By default it is set to DenseNet i.e 'd'
